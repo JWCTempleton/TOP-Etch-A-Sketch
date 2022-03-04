@@ -88,9 +88,19 @@ html{
     min-height: 500px;
     margin: 2rem auto;
     border: 2px solid black;
+
 }
 
 .grid-element{
     border: 1px solid black;
     background-color: antiquewhite;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
+
+.size-button{
+    margin-top: 1.6rem;
 }
