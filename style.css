@@ -73,6 +73,11 @@ select {
   }
 }
 
+html{
+    font-size: 62.5%;
+    line-height: 1.6;
+}
+
 .title{
     text-align: center;
 }
