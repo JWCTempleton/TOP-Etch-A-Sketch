@@ -1,10 +1,15 @@
 // Query Selectors
 const gridContainer = document.querySelector(".grid");
 const sizeButton = document.querySelector(".size-button");
+const clearButton = document.querySelector(".clear-grid");
 
 //Event Listeners
 window.addEventListener("load", setDefaultGrid);
 sizeButton.addEventListener("click", changeSize);
+clearButton.addEventListener("click", () => {
+  clearGrid();
+  setDefaultGrid();
+});
 
 // Functions
 function setGridSize(size) {
