@@ -82,6 +82,10 @@ html{
     text-align: center;
 }
 
+#container{
+    padding:1rem;
+}
+
 .grid{
     display: grid;
     max-width: 500px;
