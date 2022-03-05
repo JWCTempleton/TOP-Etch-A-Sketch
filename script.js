@@ -15,6 +15,7 @@ function fillGrid(size) {
   for (let i = 0; i < size * size; i++) {
     const gridElement = document.createElement("div");
     gridElement.classList = "grid-element";
+    gridElement.addEventListener("mouseover", changeColor);
     gridContainer.appendChild(gridElement);
   }
 }
