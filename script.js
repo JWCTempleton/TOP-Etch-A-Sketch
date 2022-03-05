@@ -31,12 +31,12 @@ function setDefaultGrid() {
 }
 
 function changeSize() {
-  let newSize = prompt("Please enter a new size between 1 and 80");
+  let newSize = prompt("Please enter a new size between 1 and 64");
 
   if (newSize !== null) {
     newSize = parseInt(newSize);
-    if (newSize < 1 || newSize > 80 || Number.isNaN(newSize)) {
-      alert("The size must be between 1 and 80");
+    if (newSize < 1 || newSize > 64 || Number.isNaN(newSize)) {
+      alert("The size must be between 1 and 64");
       changeSize();
     } else {
       clearGrid();
